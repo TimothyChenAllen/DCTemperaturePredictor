@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle       : DC Temperature Predictor\nsubtitle    : 1996-2016 NOAA Climate Data\nauthor      : Timothy Chen Allen\njob         : Coursera/JHU\nframework   : io2012        # {io2012, html5slides, shower, dzslides, ...}\nhighlighter : highlight.js  # {highlight.js, prettify, highlight}\nhitheme     : tomorrow      # \nwidgets     : []            # {mathjax, quiz, bootstrap}\nmode        : selfcontained # {standalone, draft}\nknit        : slidify::knit2slides\n---\n\n## Read-And-Delete\n\n1. Edit YAML front matter\n2. Write using R Markdown\n3. Use an empty line followed by three dashes to separate slides!\n\n--- .class #id \n\n## Slide 2\n\n\n\n\n",
+    "created" : 1454278879328.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1643977135",
+    "id" : "EBA68C11",
+    "lastKnownWriteTime" : 1454279035,
+    "path" : "C:/Users/Tim/OneDrive/Documents/R/Coursera/DataProductsProject/DC_Temperature_Predictor_Pitch/index.Rmd",
+    "project_path" : "DC_Temperature_Predictor_Pitch/index.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

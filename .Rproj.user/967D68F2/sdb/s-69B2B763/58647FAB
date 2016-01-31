@@ -1,0 +1,17 @@
+{
+    "contents" : "# This Application allows the user to input a date, and uses 1996-2000\n# data from NOAA's National Climatic Data Center to predict\n# the mean, minimum, and maximum temperature, as well as displaying the\n# historical minimum and maximum temperatures for those years.\n\nrequire(shiny)\nrequire(lubridate)\n\nshinyUI(\n  fluidPage(\n    titlePanel(title = \"Washington, DC: Predicted Temperature\", windowTitle = \"DC Temperature\"),\n    column(width=12, inputPanel(\n      dateInput(inputId=\"userDay\", label=\"Date input: yyyy-mm-dd\", value=today()),\n      submitButton(text = \"Show Predictions\"), \n      helpText(\"This application predicts the temperature in Washington, DC based on 1996-2016 NOAA data.\",\n               \"Input a date to see the predicted mean, minimum, and maximum temperatures\",\n               \"as well as historic minimum and maximum temperatures in Celsius and Fahrenheit.\")\n    )),\n    column(width=12, wellPanel(plotOutput(\"tempPlot\")))\n  )\n)\n",
+    "created" : 1454134616407.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4116676955",
+    "id" : "58647FAB",
+    "lastKnownWriteTime" : 1454278356,
+    "path" : "C:/Users/Tim/OneDrive/Documents/R/Coursera/DataProductsProject/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

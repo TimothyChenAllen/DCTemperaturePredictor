@@ -1,0 +1,18 @@
+{
+    "contents" : "# Create five slide pitch deck for the DC Temperature Predictor\nrequire(slidify)\nrequire(knitr)\n# author(\"DC_Temperature_Predictor_Pitch\")\n\nslidify(\"index.Rmd\")\nbrowseURL(\"index.html\")\n\npublish_github(username = \"TimothyChenAllen\",\n               repo = \"DCTemperaturePredictor\")\n",
+    "created" : 1454278560567.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4291205901",
+    "id" : "AF4F37F6",
+    "lastKnownWriteTime" : 1454280247,
+    "path" : "C:/Users/Tim/OneDrive/Documents/R/Coursera/DataProductsProject/DC_Temperature_Predictor_Pitch/publish_to_github.R",
+    "project_path" : "DC_Temperature_Predictor_Pitch/publish_to_github.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}
